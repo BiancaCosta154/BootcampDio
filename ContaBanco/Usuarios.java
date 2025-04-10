@@ -25,4 +25,9 @@ public int getConta(){return conta;}
 public void setSaldo(float saldo){this.saldo=saldo;}
 public float getSaldo(){return saldo;}
 
+ // Método para mostrar os valores:
+public String print(){
+    return "Seja bem-vindo(a)," + name + "! Obrigado por criar uma conta em nosso banco, sua agência é " +
+    agencia + ", conta " + conta + " e seu saldo " + "já está disponível para saque!";
+
 }
