@@ -24,10 +24,8 @@ Usuarios usuarios = new Usuarios();
         System.out.println("Digite o seu saldo:");
         usuarios.setSaldo(scanner.nextFloat());
 
-        System.out.println("Seja bem-vindo(a), " + usuarios.getName() +"!"+ 
-        ",obrigado por criar uma conta em nosso banco, sua agência é " + usuarios.getAgencia() +
-        ", conta " + usuarios.getConta() + " e seu saldo " + usuarios.getSaldo() + " já está disponível para saque. ");
-        
+        // impressão das informações:
+        System.out.println(usuarios.print());
      
         scanner.close();
 
